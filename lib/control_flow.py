@@ -3,7 +3,7 @@
 def admin_login(username, password):
    if username=="admin" and password == '12345':
     return("Access granted")
-   if username=="ADMIN" and password == '12345':
+   elif username=="ADMIN" and password == '12345':
     return("Access granted")
    else: 
     return ("Access denied")
